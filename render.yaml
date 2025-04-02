@@ -1,0 +1,13 @@
+
+services:
+  - type: web
+    name: instagram-dm-bot
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      - key: VERIFY_TOKEN
+        value: your-verify-token
+      - key: ACCESS_TOKEN
+        value: your-page-access-token
