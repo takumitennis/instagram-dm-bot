@@ -5,8 +5,8 @@ import os
 
 app = Flask(__name__)
 
-VERIFY_TOKEN = os.getenv("VERIFY_TOKEN")
-ACCESS_TOKEN = os.getenv("ACCESS_TOKEN")
+VERIFY_TOKEN = takumi123
+ACCESS_TOKEN = EAAHFgkpPYhUBO9IoOLPs4OWjspqa3DpG5M0cnco2d2zB8PPeqxVbo7dKjLTURZChs3JBSvUgdQvwEefOio57VI0BtpT1d9QwWNH0m8eGGPapf0YWju9ya9ME5W5PIN06LCNNaoaa3kaeZBkUl6EGokwHyBObWZBVzkZCks9UBreiHKmipZAnUDiYwu20sYaYJwOFtLny8PIsUqHImpwZDZD
 
 @app.route('/')
 def index():
